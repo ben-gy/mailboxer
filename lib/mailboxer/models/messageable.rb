@@ -6,7 +6,7 @@ module Mailboxer
       module ActiveRecordExtension
         #Converts the model into messageable allowing it to interchange messages and
         #receive notifications
-        def acts_as_messageable
+        def model_is_messageable
           include Messageable
         end
       end
